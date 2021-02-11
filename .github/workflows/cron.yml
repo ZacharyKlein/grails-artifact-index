@@ -27,9 +27,9 @@ jobs:
           # setup the username and email. I tend to use 'GitHub Actions Bot' with no email by default
           git config user.name "GitHub Actions Bot"
           git config user.email "<>"
-      - name: commit
-        run: |
-          # Stage the file, commit and push
-          git add grails-plugins.json
-          git commit -m "Update grails-plugins.json"
-          git push origin master
+      # - name: commit
+      #   run: |
+      #     # Stage the file, commit and push
+      #     git add grails-plugins.json
+      #     git commit -m "Update grails-plugins.json"
+      #     git push origin master
